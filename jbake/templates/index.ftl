@@ -40,9 +40,9 @@
           <div class="col-lg-8 mx-auto">
             <p class="text-faded mb-5">Please select a language</p>
             <a class="btn btn-primary js-scroll-trigger" 
-              href="en">English</a>
+              href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>en">English</a>
             <a class="btn btn-primary js-scroll-trigger" 
-              href="es">Spanish</a>
+              href="<#if (content.rootpath)??>${content.rootpath}<#else></#if>es">Spanish</a>
           </div>
         </div>
       </div>
